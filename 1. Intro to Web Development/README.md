@@ -136,7 +136,7 @@ h1 {
 
 ### Example
 ```JavaScript
-function clickMe() {
+function displayMessage() {
   console.log(‘Hello world!’)
 }
 ```
@@ -166,7 +166,7 @@ File: `scripts.js`
 </head>
 <body>
   <h1>Hello world!</h1>
-  <button class="button">Click me!</button>
+  <button>Click me!</button>
   <script src="scripts.js"></script> 
 </body>
 </html>
