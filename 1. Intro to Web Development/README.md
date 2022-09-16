@@ -83,6 +83,7 @@ This is some [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code) 
 
 ## Concepts
 `<h1>` - referred to as heading level 1, meaning it is the most important text on the page
+
 **Hello world!** - used by all programmers to write their first program; once you have done this, you will be officially inducted into the club
 
 ## Exercise
