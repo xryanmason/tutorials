@@ -100,7 +100,7 @@ button {
   color: red;
 }
 ```
-styles.css
+File: styles.css
 
 ## Exercise
 1. Create a new file called `styles.css`
