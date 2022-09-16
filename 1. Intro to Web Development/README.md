@@ -81,7 +81,7 @@ This is some [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code) 
 </html>
 ```
 
-## Concepts
+## Exercise Recap
 `<h1>` - referred to as heading level 1, meaning it is the most important text on the page
 
 **Hello world!** - used by all programmers to write their first program; once you have done this, you will be officially inducted into the club
@@ -124,7 +124,7 @@ h1 {
 ```
 4. Refresh your browser and you should now see red text
 
-## Concepts
+## Exercise Recap
 `h1` - the thing you are targeting, that you want to apply the style to
 
 `color` - the attribute that you want to change
@@ -178,7 +178,7 @@ document.querySelector('button').addEventListener('click', () => console.log('He
 5. Go back to your webpage, refresh it, open the console (right-click, inspect, click the console tab), and click the button
 6. You should see “Hello world!” in the console
 
-## Concepts
+## Exercise Recap
 **document** - referencing the HTML document
 
 **querySelector** - a method that says, “let me query (search for) something on the document using a selector (the way I can identify the thing I’m searching for)"
