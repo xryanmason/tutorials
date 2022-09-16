@@ -191,7 +191,7 @@ document.querySelector('button').addEventListener('click', () => console.log('He
 Congrats! If you made it this far, you're on your way to becoming a web developer.
 
 ## Beyond the Lesson
-Try changing some things
+Try changing some things:
 - make “Hello world!” say “Hi world!”
 - make the heading text blue
 - make clicking the header say something rather than clicking the button
