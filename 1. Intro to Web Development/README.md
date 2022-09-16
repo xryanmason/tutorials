@@ -75,9 +75,9 @@ This is some [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code) 
 ```
 <!DOCTYPE html>
 <html>
-   <body>
-       <h1>Hello world!</h1>
-   </body>
+  <body>
+    <h1>Hello world!</h1>
+  </body>
 </html>
 ```
 
@@ -137,7 +137,7 @@ h1 {
 ### Example
 ```
 function clickMe() {
-    console.log(‘Hello world!’)
+  console.log(‘Hello world!’)
 }
 ```
 File: `scripts.js`
