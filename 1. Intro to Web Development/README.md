@@ -51,7 +51,7 @@ You now have an editor, a place where you can write your code. In the next secti
 
 ## Exercise
 1. In your editor, create a new file named `index.html`
-1. In your new file, write the following:
+2. In your new file, write the following:
 
 ```
 <!DOCTYPE html>
