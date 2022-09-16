@@ -53,7 +53,7 @@ You now have an editor, a place where you can write your code. In the next secti
 1. In your editor, create a new file named `index.html`
 2. In your new file, write the following:
 
-```
+```HTML
 <!DOCTYPE html>
 <html>
  <body>
@@ -72,7 +72,7 @@ This is some [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code) 
 
 ## Exercise
 1. Add an h1 element inside of the body tags
-```
+```HTML
 <!DOCTYPE html>
 <html>
   <body>
@@ -95,7 +95,7 @@ This is some [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code) 
 **CSS** - the style code; the code that makes the HTML look nice
 
 ### Example
-```
+```CSS
 button {
   color: red;
 }
@@ -105,7 +105,7 @@ File: styles.css
 ## Exercise
 1. Create a new file called `styles.css`
 2. Add a reference to your CSS file, also called a stylesheet, in your HTML file to let the HTML know where to look for your style code
-```
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -117,7 +117,7 @@ File: styles.css
 </html>
 ```
 3. Add a style that targets the h1 tag and makes the text red
-```
+```CSS
 h1 {
   color: red;
 }
@@ -135,7 +135,7 @@ h1 {
 **JavaScript** - the functionality code; the code that makes the HTML functional and interactive
 
 ### Example
-```
+```JavaScript
 function clickMe() {
   console.log(‘Hello world!’)
 }
@@ -145,7 +145,7 @@ File: `scripts.js`
 ## Exercise
 1. Add a new file called `scripts.js`
 2. Add a reference to your script file to let the HTML know where to look for your script code
-```
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -158,7 +158,7 @@ File: `scripts.js`
 </html>
 ```
 3. Add a button to your HTML
-```
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -172,7 +172,7 @@ File: `scripts.js`
 </html>
 ```
 4. In your script file, write the following to add an event listener to your button:
-```
+```JavaScript
 document.querySelector('button').addEventListener('click', () => console.log('Hello world!'))
 ```
 5. Go back to your webpage, refresh it, open the console (right-click, inspect, click the console tab), and click the button
