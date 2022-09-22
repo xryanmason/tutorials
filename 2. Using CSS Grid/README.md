@@ -160,7 +160,7 @@ body {
 
 `repeat(3, 1fr)` - used to say "repeat 3 rows/columns of equal size" (1fr is 1 fractional unit)
 
-`gap: 10px` - sets a 10px gap between each grid tile
+`gap: 10px` - sets a 10 pixel gap between each grid tile
 
 # Conclusion
 Congrats! You now have a 3x3 grid. In the next lesson, we'll learn how to move something around on the grid using JavaScript.
