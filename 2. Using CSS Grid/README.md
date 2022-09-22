@@ -4,7 +4,7 @@ This tutorial explains how to make a 3x3 grid using CSS grid. In a future lesson
 # Review
 The basics of HTML and CSS were covered in a previous lesson. If you get stuck, consider reviewing those concepts.
 
-# Classes
+# Bonus
 
 ## Concepts
 
@@ -23,6 +23,8 @@ Comments have different syntax, depending on what language you're using.
 ```
 
 Feel free to write some comments during the tutorial.
+
+# Classes
 
 **Class** - an HTML element attribute that can be referenced by CSS and JavaScript
 - Code: `<button class="special-button">Click me!</button>`, where `special-button` is the name of the class
