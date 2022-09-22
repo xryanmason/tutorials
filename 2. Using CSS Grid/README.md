@@ -127,7 +127,7 @@ By default, the grid doesn't have a height and width, so we're making it take up
 
 ## Exercise
 1. Update your styles.css to the following:
-```
+```CSS
 /* styles.css */
 body {
   margin: 0;
