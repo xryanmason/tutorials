@@ -141,7 +141,7 @@ document.addEventListener("keydown", (event) => {
   }
 })
 ```
-2. Before quitting out of the tutorial due to being overwhelmed, go open the `index.html` file and use the WASD keys to move the white square around.
+2. Before quitting out of the tutorial due to being overwhelmed, go open the `index.html` file in your browser and use the WASD keys to move the white square around.
 2. Boy howdy, take a breath. We'll break it down.
 
 ## Exercise Recap
@@ -170,8 +170,11 @@ if (requestedPositionEl) {
 this is saying, "if you found a requestedPositionEl, meaning the place we're trying to move is not off screen and is a valid grid location, then update our current location to be a tile instead of a player, and update our requested location to be a player instead of a tile".
 
 Breaking that down:
+
 `if (requestedPositionEl) {` - if requestedPositionEl has a value then continue to the next couple of lines
+
 `playerEl.setAttribute('class', 'tile');` - playerEl is an object that has a method called `setAttribute` that lets us update our HTML classes right from JavaScript. Remember how we manually put `class="player"` on the white player div in the HTML? This is doing the same thing, except it is making it a tile class instead.
+
 `requestedPositionEl.setAttribute('class', 'player');` - requestedPosition also has `setAttribute`, and in this case, we're setting the class to be `player` on our requested grid location, the place that we want to move.
 
 # Conclusion
